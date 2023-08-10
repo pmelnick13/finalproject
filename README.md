@@ -1,7 +1,7 @@
 # J124 Final Project: A Data Analysis and Visualization of Long COVID in the United States
 ## By Piper Melnick
 ### Data Analysis Process
-*  Start by downloading the 9link9 post-COVID conditions dataset from the CDC and then uploading to google drive and opening in google sheets<br>
+*  Start by downloading the [post-COVID conditions dataset](https://data.cdc.gov/NCHS/Post-COVID-Conditions/gsea-w83j) from the CDC and then uploading to google drive and opening in google sheets<br>
 
 _These are 5 analysis questions on the [dataset](https://data.cdc.gov/NCHS/Post-COVID-Conditions/gsea-w83j) and a step-by-step guide on how to recreate them_ <br>
 <br>
