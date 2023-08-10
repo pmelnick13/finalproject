@@ -29,7 +29,8 @@ Step-by-step Answer: <br>
 2. Create a new sheet with this data and then insert a pivot table. Place "value" in the values, summarized by average, and then place "phase" in the rows, ordered by ascending and sorted by the average value <br>
 <img width="234" alt="Screenshot 2023-08-09 at 1 06 00 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/b007a58a-f984-4b4a-9f9c-1db51f6dbe42"> <br>
 <img width="232" alt="Screenshot 2023-08-09 at 1 05 55 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/7807844a-6071-4bc0-8f1e-e1f271f9fed8"> <br>
-The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9 < br>
+The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9
+<br>
 <br>
 Question 3: What race/ethnicity had the highest average percentage of adults most affected by long covid across all phases? <br> 
 Step-by-step Answer: <br>
