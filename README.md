@@ -1,39 +1,53 @@
 # J124 Final Project: A Data Analysis and Visualization of Long COVID in the United States
 ## By Piper Melnick
-### Data Analysis Process
-*  Start by downloading the [post-COVID conditions dataset](https://data.cdc.gov/NCHS/Post-COVID-Conditions/gsea-w83j) from the CDC and then uploading to google drive and opening in google sheets<br>
 
-_These are 5 analysis questions on the [dataset](https://data.cdc.gov/NCHS/Post-COVID-Conditions/gsea-w83j) and a step-by-step guide on how to recreate them_ <br>
-<br>
-Question 1: Which state had the highest percentage of adults affected by long COVID? <br>
-Step-by-step Answer: <br>
-<br>
-1. Filter the main sheet so it only contains data pertaining to states, and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults" <br>
-<img width="1075" alt="q1step1" src="https://github.com/pmelnick13/finalproject/assets/140004443/eb295a0f-8ccc-4ec7-88e6-d06832705107"> <br>
-2. Then paste the filtered data into a new sheet in the workbook to edit<br>
-<img width="473" alt="Screenshot 2023-08-09 at 12 25 13 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/611aff4b-80f0-4590-9ee7-54197a518969"> <br>
-3. Use the formula depicted below to find the average percentage of adults affected from each phase, and then copy and paste the formula to find the average for each state <br>
-<img width="1162" alt="Screenshot 2023-08-09 at 12 25 51 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/00b7eeb6-beb3-4550-b398-6b64cefe0ace"> <br>
+### Story Pitch
+
+With the rise of long COVID diagnoses, and the ever-growing issues with government assistance for those with disabilities, now more than ever it's essential to highlight the hard numbers on who long COVID is affecting the most As clearly shown from the graph and data, minority groups are disproportionately affected by long COVID, especially those with disabilities. <br> <br> This story would serve as a call to action and awareness over long COVID and disabilities, shedding light on how great the disproportion of those affected actually is (ex, the 9.1% difference between those with disabilities vs. those without). This story would include this data analysis and visualization, and then ideally interview 2 highly important people within the COVID and disability fields to help make change. <br> <br> 
+
+### Data Analysis Process
+*  Start by downloading the [post-COVID conditions dataset](https://data.cdc.gov/NCHS/Post-COVID-Conditions/gsea-w83j) from the CDC and then uploading to Google Drive and opening in Google Sheets <br>
+
+#### Question 1: Which state had the highest percentage of adults affected by long COVID?
+**_Step-by-step Answer:_** <br>
+
+1. Filter the main sheet so the group column is "By state" and filter the indicator column to only contain "Ever experienced long COVID, as a percentage of all adults" <br>
+<img width="1075" alt="q1step1" src="https://github.com/pmelnick13/finalproject/assets/140004443/eb295a0f-8ccc-4ec7-88e6-d06832705107"> <br> <br>
+
+2. Then paste the filtered data into a new sheet in the workbook to edit <br>
+<img width="473" alt="Screenshot 2023-08-09 at 12 25 13 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/611aff4b-80f0-4590-9ee7-54197a518969"> <br> <br>
+
+3. Use the formula depicted below to find the average percentage of adults affected from each phase, and then copy and paste the formula down the column in regular intervals to find the average for each state <br>
+<img width="1162" alt="Screenshot 2023-08-09 at 12 25 51 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/00b7eeb6-beb3-4550-b398-6b64cefe0ace"> <br> <br>
+
 4. Create a new column of these averages by copy and pasting "value only" (this way the functions won't be affected during sorting). I then moved the decimal point to the tenth for easier viewing, and then filtered the sheet by the average percentage to exclude any blanks. <br>
 <img width="256" alt="Screenshot 2023-08-09 at 12 26 07 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/07ce752d-592e-47d4-b20a-438601e14d14"> <br>
-<img width="1669" alt="Screenshot 2023-08-09 at 12 36 09 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/6cc69056-bb3a-4418-8310-473e4f17e6d6"> <br>
+<img width="1669" alt="Screenshot 2023-08-09 at 12 36 09 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/6cc69056-bb3a-4418-8310-473e4f17e6d6"> <br> <br>
+
 5. Finally, sort the sheet by the non-function average column from Z-A. <br>
 <img width="930" alt="Screenshot 2023-08-10 at 10 11 10 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/02fa5016-eb07-4dec-8f12-945ad9da4fde"><br>
-The state with the highest percentage of adults affected by long COVID is West Virginia<br>
+
+**_Answer: The state with the highest percentage of adults affected by long COVID is West Virginia_**
 <br>
-Question 2: Which phase in the last year (7/27/22-7/10/23) had the highest average percentage of adults who experienced long COVID?? <br>
-Step-by-step Answer: <br>
 <br>
+
+#### Question 2: Which phase in the last year (7/27/22-7/10/23) had the highest average percentage of adults who experienced long COVID?
+**_Step-by-step Answer:_** <br>
+
 1. Filter the main sheet so it only contains phases with the aforementioned dates (phase 3.5-3.9) and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults" <br>
-<img width="694" alt="Screenshot 2023-08-09 at 1 03 16 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/539e1592-26d9-42e5-a3a5-60bd51002858"> <br>
+<img width="694" alt="Screenshot 2023-08-09 at 1 03 16 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/539e1592-26d9-42e5-a3a5-60bd51002858"> <br> <br>
+
 2. Create a new sheet with this data and then insert a pivot table. Place "value" in the values, summarized by average, and then place "phase" in the rows, ordered by ascending and sorted by the average value <br>
 <img width="234" alt="Screenshot 2023-08-09 at 1 06 00 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/b007a58a-f984-4b4a-9f9c-1db51f6dbe42"> <br>
 <img width="232" alt="Screenshot 2023-08-09 at 1 05 55 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/7807844a-6071-4bc0-8f1e-e1f271f9fed8"> <br>
-The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9
+
+**_Answer: The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9_**
 <br>
 <br>
-Question 3: What race/ethnicity had the highest average percentage of adults most affected by long COVID across all phases? <br> 
-Step-by-step Answer: <br>
+
+#### Question 3: What race/ethnicity had the highest average percentage of adults most affected by long COVID across all phases?
+**_Step-by-step Answer:_**
+<br>
 <br>
 1. Filter the main sheet so the "group" is by race/ethnicity and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults". Then copy this data into a new sheet to work on. <br>
 <img width="1314" alt="Screenshot 2023-08-09 at 1 09 45 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/39dc41aa-7748-4847-bb29-c06b31582c62">
