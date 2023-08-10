@@ -32,7 +32,7 @@ Step-by-step Answer: <br>
 The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9
 <br>
 <br>
-Question 3: What race/ethnicity had the highest average percentage of adults most affected by long covid across all phases? <br> 
+Question 3: What race/ethnicity had the highest average percentage of adults most affected by long COVID across all phases? <br> 
 Step-by-step Answer: <br>
 <br>
 1. Filter the main sheet so the "group" is by race/ethnicity and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults". Then copy this data into a new sheet to work on. <br>
@@ -40,9 +40,9 @@ Step-by-step Answer: <br>
 2. Insert a pivot table into this new sheet. Place "value" in the values, summarized by average, and then place "subgroup" in the rows, ordered by descending and sorted by the average value. I also added "phase" into the rows, because I was interested in what phase had the highest percentage of those affected within each average, but this is not necessary <br>
 <img width="228" alt="Screenshot 2023-08-09 at 1 12 17 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/3b3403a6-6eeb-446a-8415-23f4fcca8a8b"> <br>
 <img width="436" alt="Screenshot 2023-08-09 at 1 12 27 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/9f677e76-7526-4ac7-a123-ef21464da03a"> <br>
-The race/ethnicity in the last year with the highest percentage of adults who experienced long covid was those who are non-Hispanic and other races/multiple races<br>
+The race/ethnicity in the last year with the highest percentage of adults who experienced long COVID was those who are non-Hispanic and other races/multiple races<br>
 <br>
-Question 4: What was the difference in average percentage of adults affected by long covid across all phases between adults who had disabilities vs. adults who didn’t? <br>
+Question 4: What was the difference in average percentage of adults affected by long COVID across all phases between adults who had disabilities vs. adults who didn’t? <br>
 Step-by-step Answer: <br>
 <br>
 1. Filter the main sheet so the "group" is by disability status and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults". Then copy this data into a new sheet to work on. 
@@ -51,7 +51,7 @@ Step-by-step Answer: <br>
 <br>
 2. Insert a pivot table into this new sheet. Place "value" in the values, summarized by average, and then place "subgroup" in the rows, ordered by descending and sorted by the average value. To find the difference, I then added a cell with the function (b2-b3)
 <img width="431" alt="Screenshot 2023-08-10 at 7 51 13 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/5b4bcdff-f8b3-4b55-b8f1-c024076c548f"> <br>
-The difference in the average percentage of adults affected by long covid across all phases between adults who had disabilities vs. adults who didn’t was 9.1% <br>
+The difference in the average percentage of adults affected by long COVID across all phases between adults who had disabilities vs. adults who didn’t was 9.1% <br>
 <br>
 Question 5: Which group was most affected by long COVID in the last year (7/27/22-7/10/23)? <br>
 Step-by-step Answer: <br>
