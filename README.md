@@ -61,7 +61,9 @@ Step-by-step Answer: <br>
 <img width="236" alt="Screenshot 2023-08-10 at 7 57 54 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/22ff98d0-de77-4fe3-89f7-ceb87b1fa8a6">
 The group that was most affected by long COVID in the last year was those with disabilities <br>
 <br>
+
 ## Data Visualizations
+
 _Below is a [bar chart](https://datawrapper.dwcdn.net/Y2Q6z/1/) showing a visualization of the final analysis: which groups were most affected by long COVID in the last year?_ <br>
 <img width="594" alt="Screenshot 2023-08-10 at 10 41 55 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/f827855c-0892-4098-815e-d8e024b3c71f">
 
