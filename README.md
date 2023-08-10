@@ -49,7 +49,7 @@ Step-by-step Answer: <br>
 <img width="693" alt="Screenshot 2023-08-10 at 7 49 38 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/660adbc6-9c04-481d-a4fb-4a0e78d9db70">
 2. Insert a pivot table into this new sheet. Place "value" in the values, summarized by average, and then place "subgroup" in the rows, ordered by descending and sorted by the average value. To find the difference, I then added a cell with the function (b2-b3)
 <img width="431" alt="Screenshot 2023-08-10 at 7 51 13 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/5b4bcdff-f8b3-4b55-b8f1-c024076c548f"> <br>
-The difference in the average percentage of adults affected by long covid across all phases between adults who had disabilities vs. adults who didn’t was 9.1%** <br>
+The difference in the average percentage of adults affected by long covid across all phases between adults who had disabilities vs. adults who didn’t was 9.1% <br>
 <br>
 Question 5: Which group was most affected by long COVID in the last year (7/27/22-7/10/23)? <br>
 Step-by-step Answer: <br>
