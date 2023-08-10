@@ -3,7 +3,7 @@
 ### Data Analysis Process
 *  Start by downloading the 9link9 post-COVID conditions dataset from the CDC and then uploading to google drive and opening in google sheets<br>
 
-_These are 5 analysis questions on the dataset and a step-by-step guide on how to recreate them_ <br>
+_These are 5 analysis questions on the [dataset](https://data.cdc.gov/NCHS/Post-COVID-Conditions/gsea-w83j) and a step-by-step guide on how to recreate them_ <br>
 <br>
 **Question 1: Which state had the highest percentage of adults affected by long COVID?** <br>
 **_Step-by-step Answer:_** <br>
@@ -29,9 +29,9 @@ _These are 5 analysis questions on the dataset and a step-by-step guide on how t
 2. Create a new sheet with this data and then insert a pivot table. Place "value" in the values, summarized by average, and then place "phase" in the rows, ordered by ascending and sorted by the average value <br>
 <img width="234" alt="Screenshot 2023-08-09 at 1 06 00 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/b007a58a-f984-4b4a-9f9c-1db51f6dbe42"> <br>
 <img width="232" alt="Screenshot 2023-08-09 at 1 05 55 PM" src="https://github.com/pmelnick13/finalproject/assets/140004443/7807844a-6071-4bc0-8f1e-e1f271f9fed8"> <br>
-**The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9**<br>
+**The phase in the last year with the highest percentage of adults who experienced long covid was the most recent phase, 3.9**< br>
 <br>
-**Question 3: What race/ethnicity had the highest average percentage of adults most affected by long covid across all phases?** <br>
+**Question 3: What race/ethnicity had the highest average percentage of adults most affected by long covid across all phases?** <br> 
 **_Step-by-step Answer:_** <br>
 <br>
 1. Filter the main sheet so the "group" is by race/ethnicity and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults". Then copy this data into a new sheet to work on. <br>
@@ -60,8 +60,14 @@ _These are 5 analysis questions on the dataset and a step-by-step guide on how t
 <img width="235" alt="Screenshot 2023-08-10 at 7 57 59 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/195b2dc8-86bd-48e0-ab7a-a6a069ab29cd"> <br>
 <img width="236" alt="Screenshot 2023-08-10 at 7 57 54 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/22ff98d0-de77-4fe3-89f7-ceb87b1fa8a6">
 **The group that was most affected by long COVID in the last year was those with disabilities** <br>
+<br>
+## Data Visualizations
+_Below is a [bar chart](https://datawrapper.dwcdn.net/Y2Q6z/1/) showing a visualization of the final analysis: which groups were most affected by long COVID in the last year?_ <br>
+<img width="594" alt="Screenshot 2023-08-10 at 10 41 55 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/f827855c-0892-4098-815e-d8e024b3c71f">
 
-
+## Story and Sources
+As clearly shown from the graph and data, minority groups are disproportionately affected by long COVID, especially those with disabilities. This story would serve as a call to action, shedding light on how great the disproportion actually is (ex, the 9.1% difference between those with disabilities vs. those without). This story would include this data analysis and visualization, and then ideally interview 2 highly important people to help make change. The people I would want to get in contact with would be Ramonia Rochester who is the research director at the National Disability Institute, because she would be able to give good insight on the effects of long COVID on those with different types of disabilities. Additionally, I'd want to be in contact with Neil MacBride, who is the General Counsel of the Department of Treasury because the Department of Treasury runs the COVID relief funding. I think he would give good perspective on what he believes is most important to fund when it comes to the effects of long COVID. 
+As for additional sources, I would want to look at this [book](https://www.ncbi.nlm.nih.gov/books/NBK585192/) from the National Library of Medicine that discusses the long-term effects of COVID because it would allow me to give a more thorough explanation of COVID and the effects of long COVID. Additionally, I would want to use this [website](https://www.usaspending.gov/disaster/covid-19?publicLaw=all) to give more of an insight into where COVID relief spending is actually going, and perhaps if more of it could go to assisting minorities who are disproportionately affected by long COVID.
 
 
 
