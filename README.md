@@ -48,6 +48,7 @@ Step-by-step Answer: <br>
 1. Filter the main sheet so the "group" is by disability status and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults". Then copy this data into a new sheet to work on. 
 <img width="949" alt="Screenshot 2023-08-10 at 7 47 35 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/9ceb73c9-407c-435f-8463-367e9056fef0"> <br>
 <img width="693" alt="Screenshot 2023-08-10 at 7 49 38 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/660adbc6-9c04-481d-a4fb-4a0e78d9db70">
+<br>
 2. Insert a pivot table into this new sheet. Place "value" in the values, summarized by average, and then place "subgroup" in the rows, ordered by descending and sorted by the average value. To find the difference, I then added a cell with the function (b2-b3)
 <img width="431" alt="Screenshot 2023-08-10 at 7 51 13 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/5b4bcdff-f8b3-4b55-b8f1-c024076c548f"> <br>
 The difference in the average percentage of adults affected by long covid across all phases between adults who had disabilities vs. adults who didn’t was 9.1% <br>
@@ -56,8 +57,9 @@ Question 5: Which group was most affected by long COVID in the last year (7/27/2
 Step-by-step Answer: <br>
 <br>
 1. Filter the main sheet so the "state" is the United States and filter the indicator to only contain "Ever experienced long COVID, as a percentage of all adults". Then filter the main sheet so it only contains phases with the aforementioned dates (phase 3.5-3.9) and copy this data into a new sheet to work on. I then removed the national estimate group, because it was not relevant to the question. <br>
-<img width="1401" alt="Screenshot 2023-08-10 at 7 53 48 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/edea46c1-7bfa-4668-8bd5-ad4ddfb623e1"> <br>
-2. Insert a pivot table into this new sheet. Place "value" in the values, summarized by average, and then place "subgroup" in the rows, ordered by descending and sorted by the average value. <br>
+<img width="1401" alt="Screenshot 2023-08-10 at 7 53 48 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/edea46c1-7bfa-4668-8bd5-ad4ddfb623e1">
+<br>
+3. Insert a pivot table into this new sheet. Place "value" in the values, summarized by average, and then place "subgroup" in the rows, ordered by descending and sorted by the average value. <br>
 <img width="235" alt="Screenshot 2023-08-10 at 7 57 59 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/195b2dc8-86bd-48e0-ab7a-a6a069ab29cd"> <br>
 <img width="236" alt="Screenshot 2023-08-10 at 7 57 54 AM" src="https://github.com/pmelnick13/finalproject/assets/140004443/22ff98d0-de77-4fe3-89f7-ceb87b1fa8a6">
 The group that was most affected by long COVID in the last year was those with disabilities <br>
